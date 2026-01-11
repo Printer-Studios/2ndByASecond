@@ -7,7 +7,7 @@ public class GoalSergio : MonoBehaviour
 {
     public List<GameObject> cars; 
     public List<(GameObject car, float dist)> distCars;
-    public List<Image> sprites;
+    public List<Sprite> sprites;
     public GameObject goal;
     public GameObject playerCars;
     private GameObject playerCar;
@@ -41,7 +41,7 @@ public class GoalSergio : MonoBehaviour
 
         int num = distCars.FindIndex(a => a.car == playerCar);
         if(num >= sprites.Count){num = sprites.Count-1;}
-        numero = sprites[num];
+        numero.sprite = sprites[num];
 
     }
 

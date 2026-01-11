@@ -58,3 +58,4 @@ MonoBehaviour:
   goal: {fileID: 0}
   playerCars: {fileID: 0}
   textUI: {fileID: 0}
+  numero: {fileID: 0}
