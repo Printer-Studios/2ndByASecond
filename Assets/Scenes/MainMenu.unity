@@ -6596,13 +6596,76 @@ MonoBehaviour:
       Data3: 1785877157
       Data4: -657647415
     Path: event:/Musica/Victoria
+  <Countdown321>k__BackingField:
+    Guid:
+      Data1: 843575606
+      Data2: 1075207425
+      Data3: -1707769701
+      Data4: 669600351
+    Path: event:/SFX/321
+  <Banana>k__BackingField:
+    Guid:
+      Data1: 176332094
+      Data2: 1222861758
+      Data3: 1049008819
+      Data4: -77195124
+    Path: event:/SFX/Banana
+  <Nitro>k__BackingField:
+    Guid:
+      Data1: 1405417180
+      Data2: 1318604646
+      Data3: -1359589725
+      Data4: -2062570101
+    Path: event:/SFX/Nitro
+  <PresentacioCoche1>k__BackingField:
+    Guid:
+      Data1: -1665635741
+      Data2: 1307329516
+      Data3: -217192262
+      Data4: -1589061638
+    Path: event:/SFX/Presentaciones/Coche 1
+  <PresentacioBebe>k__BackingField:
+    Guid:
+      Data1: 1318255190
+      Data2: 1293209980
+      Data3: -596087916
+      Data4: 588435623
+    Path: event:/SFX/Presentaciones/Bebe
+  <PresentacioBici>k__BackingField:
+    Guid:
+      Data1: -104423053
+      Data2: 1125637681
+      Data3: -447441733
+      Data4: -867376519
+    Path: event:/SFX/Presentaciones/Bici
+  <PresentacioCoche2>k__BackingField:
+    Guid:
+      Data1: 775957143
+      Data2: 1143962803
+      Data3: 647354789
+      Data4: -2085129184
+    Path: event:/SFX/Presentaciones/Coche 2
+  <PresentacioWhatsapp>k__BackingField:
+    Guid:
+      Data1: -1763326104
+      Data2: 1195547538
+      Data3: -1705173341
+      Data4: 1107890387
+    Path: event:/SFX/Presentaciones/Whatsapp
   <woshProba>k__BackingField:
     Guid:
-      Data1: 275942905
-      Data2: 1267546575
-      Data3: -1406743629
-      Data4: 2039655223
-    Path: event:/Event
+      Data1: -752869286
+      Data2: 1341454665
+      Data3: -1704051528
+      Data4: -1463130494
+    Path: event:/SFX/MouseClick
+  <BackGroundCarretera>k__BackingField:
+    Guid:
+      Data1: 265155157
+      Data2: 1229715298
+      Data3: -58962028
+      Data4: 1971712054
+    Path: event:/BackGround/Carreterra
 --- !u!1 &1041766157
 GameObject:
   m_ObjectHideFlags: 0

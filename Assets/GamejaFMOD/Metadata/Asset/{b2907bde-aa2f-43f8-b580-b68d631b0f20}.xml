@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{b2907bde-aa2f-43f8-b580-b68d631b0f20}">
+		<property name="assetPath">
+			<value>Coche Engine/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f9a1d39b-a122-40c7-9f69-0375a20ac546}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -21,6 +21,7 @@ public class Deaccelerator : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Player"))
         {
+            AudioManager.instance.PlayerOneShot(FMODEvents.instance.Banana, this.transform.position);
             frenar.SetBool("Frenar", true);
             other.gameObject.GetComponent<PlayerMovement>().speed *= deacceleratorMultValue;
         }
