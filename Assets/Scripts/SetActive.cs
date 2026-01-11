@@ -4,12 +4,14 @@ using UnityEngine;
 public class SetActive : MonoBehaviour
 {
     public GameObject[] exclamations;
+
     private void Start()
     {
         switch (PlayerPrefs.GetInt("PlayerSprite"))
         {
             case 0:
                 exclamations[0].SetActive(true);
+                Debug.Log("Coche Main");
                 break;
             case 1:
                 exclamations[1].SetActive(true);
@@ -21,6 +23,7 @@ public class SetActive : MonoBehaviour
                 exclamations[3].SetActive(true);
                 break;
             default:
+                Debug.Log("Coche Main");
                 exclamations[0].SetActive(true);
                 break;
         }
