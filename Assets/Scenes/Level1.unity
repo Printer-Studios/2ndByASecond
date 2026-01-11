@@ -3599,6 +3599,10 @@ PrefabInstance:
       propertyPath: deacceleratorValue
       value: -7
       objectReference: {fileID: 0}
+    - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
+      propertyPath: deacceleratorMultValue
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 4465980785983947933, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: m_Name
       value: Deaccelerator (4)
@@ -18111,6 +18115,10 @@ PrefabInstance:
     - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: deacceleratorValue
       value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
+      propertyPath: deacceleratorMultValue
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 4465980785983947933, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: m_Name
@@ -136844,6 +136852,10 @@ PrefabInstance:
       propertyPath: players
       value: 
       objectReference: {fileID: 1672476491}
+    - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
+      propertyPath: deacceleratorMultValue
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 4465980785983947933, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: m_Name
       value: Deaccelerator (1)
@@ -137913,6 +137925,10 @@ PrefabInstance:
     - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: deacceleratorValue
       value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
+      propertyPath: deacceleratorMultValue
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 4465980785983947933, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: m_Name
@@ -143382,6 +143398,14 @@ PrefabInstance:
       propertyPath: players
       value: 
       objectReference: {fileID: 1672476491}
+    - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
+      propertyPath: deacceleratorValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
+      propertyPath: deacceleratorMultValue
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 4465980785983947933, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: m_Name
       value: Deaccelerator

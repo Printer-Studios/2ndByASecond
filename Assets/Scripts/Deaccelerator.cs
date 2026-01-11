@@ -3,7 +3,7 @@ using UnityEngine;
 public class Deaccelerator : MonoBehaviour
 {
     public float deacceleratorMultiplicator;
-    public int deacceleratorValue;
+    public float deacceleratorMultValue;
     public Animator frenar;
     public GameObject players;
 
@@ -19,14 +19,10 @@ public class Deaccelerator : MonoBehaviour
             other.gameObject.GetComponent<NPCmovement>().acceleration = deacceleratorMultiplicator;
             other.gameObject.GetComponent<NPCmovement>().timeToChangeAcceleration = 2f;
         }
-    }
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
         if (other.gameObject.CompareTag("Player"))
         {
             frenar.SetBool("Frenar", true);
-            other.gameObject.GetComponent<PlayerMovement>().speed += deacceleratorValue * Time.deltaTime;
+            other.gameObject.GetComponent<PlayerMovement>().speed *= deacceleratorMultValue;
         }
     }
 }
