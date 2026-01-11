@@ -22582,6 +22582,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 995879677}
     - target: {fileID: 6736932473836720671, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: npcs.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736932473836720671, guid: 1f1c708669925814da607e5368a81480, type: 3}
       propertyPath: 'npcs.Array.data[0]'
       value: 
       objectReference: {fileID: 1880168587}
@@ -22596,7 +22600,7 @@ PrefabInstance:
     - target: {fileID: 6736932473836720671, guid: 1f1c708669925814da607e5368a81480, type: 3}
       propertyPath: 'npcs.Array.data[3]'
       value: 
-      objectReference: {fileID: 1897438320}
+      objectReference: {fileID: 0}
     - target: {fileID: 8492852752378025223, guid: 1f1c708669925814da607e5368a81480, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.38115
@@ -203402,7 +203406,7 @@ MonoBehaviour:
   - {fileID: 1880168587}
   - {fileID: 198832822}
   - {fileID: 228812158}
-  - {fileID: 1897438320}
+  - {fileID: 0}
   players: {fileID: 1672476491}
 --- !u!4 &1275965592
 Transform:
@@ -220670,7 +220674,7 @@ PrefabInstance:
       objectReference: {fileID: 1672476491}
     - target: {fileID: 5470958018454605479, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
       propertyPath: cars.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5470958018454605479, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
       propertyPath: 'cars.Array.data[0]'
@@ -220687,7 +220691,7 @@ PrefabInstance:
     - target: {fileID: 5470958018454605479, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
       propertyPath: 'cars.Array.data[3]'
       value: 
-      objectReference: {fileID: 1897438320}
+      objectReference: {fileID: 0}
     - target: {fileID: 5470958018454605479, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
       propertyPath: 'cars.Array.data[4]'
       value: 
@@ -225489,11 +225493,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &1897438320 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8468629878651845585, guid: 406eec9ce6cf1ef4c9a6b1448674d2e2, type: 3}
-  m_PrefabInstance: {fileID: 2053288245}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1898614493
 GameObject:
   m_ObjectHideFlags: 0
@@ -232378,67 +232377,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3297211416567879173, guid: 9a6c10e36fc6eef43980fe7a26a02122, type: 3}
   m_PrefabInstance: {fileID: 1461951615}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2053288245
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1894378900661726088, guid: 406eec9ce6cf1ef4c9a6b1448674d2e2, type: 3}
-      propertyPath: currentLane
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7050102420851077003, guid: 406eec9ce6cf1ef4c9a6b1448674d2e2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 7050102420851077003, guid: 406eec9ce6cf1ef4c9a6b1448674d2e2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.60751
-      objectReference: {fileID: 0}
-    - target: {fileID: 7050102420851077003, guid: 406eec9ce6cf1ef4c9a6b1448674d2e2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7050102420851077003, guid: 406eec9ce6cf1ef4c9a6b1448674d2e2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7050102420851077003, guid: 406eec9ce6cf1ef4c9a6b1448674d2e2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7050102420851077003, guid: 406eec9ce6cf1ef4c9a6b1448674d2e2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7050102420851077003, guid: 406eec9ce6cf1ef4c9a6b1448674d2e2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7050102420851077003, guid: 406eec9ce6cf1ef4c9a6b1448674d2e2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7050102420851077003, guid: 406eec9ce6cf1ef4c9a6b1448674d2e2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7050102420851077003, guid: 406eec9ce6cf1ef4c9a6b1448674d2e2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8468629878651845585, guid: 406eec9ce6cf1ef4c9a6b1448674d2e2, type: 3}
-      propertyPath: m_Name
-      value: NPC with detection (3)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 406eec9ce6cf1ef4c9a6b1448674d2e2, type: 3}
 --- !u!1 &2054582048
 GameObject:
   m_ObjectHideFlags: 0
@@ -236144,7 +236082,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1745217449272516060, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Level1
+      value: Level4_Copy
       objectReference: {fileID: 0}
     - target: {fileID: 2121212387097891228, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: players
@@ -236255,6 +236193,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1672476491}
     - target: {fileID: 7004317876762173032, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: obstacleMap
+      value: 
+      objectReference: {fileID: 734320130}
+    - target: {fileID: 7004317876762173032, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: pauseAction
       value: 
       objectReference: {fileID: 636749235}
@@ -236262,11 +236204,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7619040367402924285, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534258934140502987, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4675475718126115295}
+    - target: {fileID: 8534258934140502987, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReloadScene
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+--- !u!114 &4675475718126115295 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9071217358064835185, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+  m_PrefabInstance: {fileID: 4675475718126115294}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d49de1148480d84fa036ffec67ef3fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneHandler
 --- !u!1001 &5744227990831893835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -236393,6 +236358,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1672476491}
     - target: {fileID: 7570860436034981517, guid: a896e4c1f342e6b4cb42d3474c60156a, type: 3}
+      propertyPath: cars.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570860436034981517, guid: a896e4c1f342e6b4cb42d3474c60156a, type: 3}
       propertyPath: 'cars.Array.data[0]'
       value: 
       objectReference: {fileID: 1880168587}
@@ -236407,7 +236376,7 @@ PrefabInstance:
     - target: {fileID: 7570860436034981517, guid: a896e4c1f342e6b4cb42d3474c60156a, type: 3}
       propertyPath: 'cars.Array.data[3]'
       value: 
-      objectReference: {fileID: 1897438320}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -236565,7 +236534,6 @@ SceneRoots:
   - {fileID: 278372382}
   - {fileID: 1030666740}
   - {fileID: 565201563}
-  - {fileID: 2053288245}
   - {fileID: 6562540392773646805}
   - {fileID: 734320129}
   - {fileID: 2097089573}
