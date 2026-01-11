@@ -1,15 +1,18 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GoalSergio : MonoBehaviour
 {
     public List<GameObject> cars; 
     public List<(GameObject car, float dist)> distCars;
+    public List<Image> sprites;
     public GameObject goal;
     public GameObject playerCars;
     private GameObject playerCar;
-    [SerializeField] public TextMeshProUGUI textUI;  
+    [SerializeField] public TextMeshProUGUI textUI; 
+    public Image numero;
     void Start()
     {
         cars.Add(playerCars.transform.GetChild(PlayerPrefs.GetInt("PlayerSprite")).gameObject);
@@ -35,8 +38,11 @@ public class GoalSergio : MonoBehaviour
         }
         distCars.Sort((a, b) => a.dist.CompareTo(b.dist));
         textUI.text = (distCars.FindIndex(a => a.car == playerCar)+1).ToString();
-        
-        
+
+        int num = distCars.FindIndex(a => a.car == playerCar);
+        if(num >= sprites.Count){num = sprites.Count-1;}
+        numero = sprites[num];
+
     }
 
     float GetDistance(GameObject a, GameObject b)
