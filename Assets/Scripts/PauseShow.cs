@@ -47,5 +47,26 @@ public class PauseShow : MonoBehaviour
             }
             
         }
+        
+        
     }
+
+    public void ContinueButton()
+    {
+        if (pausePanel.activeSelf) // DESPAUSAR
+        {
+            pausePanel.SetActive(false);
+            foreach (GameObject obj in obstacleMap.obstaclesMap)
+            {
+                obj.SetActive(true);
+            }
+            foreach (GameObject obj in objectsToDeactivate)
+            {
+                obj.SetActive(true);
+            }
+            Time.timeScale = 1;
+        }
+    }
+    
+    
 }
