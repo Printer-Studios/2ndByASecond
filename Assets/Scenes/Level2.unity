@@ -25141,10 +25141,18 @@ PrefabInstance:
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5091376365604004279, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5358262075863884960, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1891771333}
+    - target: {fileID: 5518761255611622607, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6569818226635247929, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: players
       value: 

@@ -21354,14 +21354,30 @@ PrefabInstance:
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5091376365604004279, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5358262075863884960, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1891771333}
+    - target: {fileID: 5518761255611622607, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6569818226635247929, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: players
       value: 
       objectReference: {fileID: 1472239152}
+    - target: {fileID: 6930068220855615546, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2781511113892343757, guid: bdea864cd914d1a41ad2e1a6e8bc3102, type: 2}
+    - target: {fileID: 6930068220855615546, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7004317876762173032, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: obstacleMap
       value: 
@@ -21373,6 +21389,10 @@ PrefabInstance:
     - target: {fileID: 7554494448541579268, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920524231098521349, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8534258934140502987, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
