@@ -143002,6 +143002,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1581755099}
+    - target: {fileID: 6569818226635247929, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: players
+      value: 
+      objectReference: {fileID: 1672476491}
     - target: {fileID: 7554494448541579268, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: m_Name
       value: Canvas
