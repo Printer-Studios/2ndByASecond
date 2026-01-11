@@ -4054,9 +4054,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GoalSergio
   cars:
   - {fileID: 352342690}
+  sprites: []
   goal: {fileID: 2000636537}
   playerCars: {fileID: 1472239152}
   textUI: {fileID: 632851052}
+  numero: {fileID: 0}
 --- !u!4 &131531252
 Transform:
   m_ObjectHideFlags: 0
@@ -30194,6 +30196,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1249180700}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1055876360
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5195984596345325756, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: m_Name
+      value: CountdownBehaviour
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736932473836720671, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: players
+      value: 
+      objectReference: {fileID: 1472239152}
+    - target: {fileID: 6736932473836720671, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: countdownImage
+      value: 
+      objectReference: {fileID: 2077103056}
+    - target: {fileID: 6736932473836720671, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: npcs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736932473836720671, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: 'npcs.Array.data[0]'
+      value: 
+      objectReference: {fileID: 352342690}
+    - target: {fileID: 8492852752378025223, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.41004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492852752378025223, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.24081
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492852752378025223, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492852752378025223, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492852752378025223, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492852752378025223, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492852752378025223, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492852752378025223, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492852752378025223, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492852752378025223, guid: 1f1c708669925814da607e5368a81480, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f1c708669925814da607e5368a81480, type: 3}
 --- !u!1 &1060101188
 GameObject:
   m_ObjectHideFlags: 0
@@ -31933,7 +32008,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 803818384901755853, guid: 69858f24cfeac614881b3e112f05bcad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.98
+      value: 1.51
       objectReference: {fileID: 0}
     - target: {fileID: 803818384901755853, guid: 69858f24cfeac614881b3e112f05bcad, type: 3}
       propertyPath: m_LocalPosition.y
@@ -166551,6 +166626,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &2077103056 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5722663593689692914, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+  m_PrefabInstance: {fileID: 678457088}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &2077741192
 GameObject:
   m_ObjectHideFlags: 0
@@ -168773,6 +168859,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 243997451190758463, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 243997451190758463, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.45
+      objectReference: {fileID: 0}
     - target: {fileID: 575941349166434036, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
       propertyPath: upAction
       value: 
@@ -168825,6 +168919,14 @@ PrefabInstance:
       propertyPath: agujaVelocimetro
       value: 
       objectReference: {fileID: 693170466}
+    - target: {fileID: 1622605178417129094, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1622605178417129094, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.45
+      objectReference: {fileID: 0}
     - target: {fileID: 2689431371427666089, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
       propertyPath: speedText
       value: 
@@ -168869,6 +168971,22 @@ PrefabInstance:
       propertyPath: rightAction
       value: 
       objectReference: {fileID: 483658297}
+    - target: {fileID: 6243799799596710673, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243799799596710673, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489567687388180307, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489567687388180307, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.45
+      objectReference: {fileID: 0}
     - target: {fileID: 6814912247982523800, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
       propertyPath: upAction
       value: 
@@ -168925,6 +169043,14 @@ PrefabInstance:
       propertyPath: agujaVelocimetro
       value: 
       objectReference: {fileID: 693170466}
+    - target: {fileID: 7356843065557134539, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356843065557134539, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.45
+      objectReference: {fileID: 0}
     - target: {fileID: 8112798364165361543, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
       propertyPath: speedText
       value: 
@@ -169073,3 +169199,4 @@ SceneRoots:
   - {fileID: 406686235}
   - {fileID: 1704333037}
   - {fileID: 133978263}
+  - {fileID: 1055876360}
