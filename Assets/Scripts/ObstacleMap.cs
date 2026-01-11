@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class ObstacleMap : MonoBehaviour
 {
-    public GameObject[] obstacles;
+    public GameObject obstaclesGran;
+    private GameObject[] obstacles;
+    
     [SerializeField] private GameObject[] obstaclesMap;
     public GameObject mapStartPoint, mapFinishPoint;
     public GameObject canvas;
@@ -11,6 +13,13 @@ public class ObstacleMap : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        int x = 0;
+        obstacles = new GameObject[obstaclesGran.transform.childCount];
+        foreach (Transform obj in obstaclesGran.transform)
+        {
+            obstacles[x] = obj.gameObject;
+            x++;
+        }
         obstaclesMap = new GameObject[obstacles.Length];
         for (int i = 0; i < obstacles.Length; i++)
         {
