@@ -1636,7 +1636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   startPoint: {fileID: 0}
   endPoint: {fileID: 0}
-  player: {fileID: 0}
+  playes: {fileID: 0}
   progressSlider: {fileID: 6792990015546301550}
 --- !u!1 &5091376365604004279
 GameObject:
@@ -1839,7 +1839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc5e8eb96f48be74fb8ba78161e70d55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  player: {fileID: 0}
+  players: {fileID: 0}
 --- !u!1 &5472989018002283332
 GameObject:
   m_ObjectHideFlags: 0
@@ -2798,7 +2798,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1127425362596487831
 RectTransform:
   m_ObjectHideFlags: 0
