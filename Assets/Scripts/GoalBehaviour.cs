@@ -33,6 +33,7 @@ public class GoalBehaviour : MonoBehaviour
                 
                 if (playerPosition == 2)
                 {
+                    PlayerPrefs.SetInt("Win", PlayerPrefs.GetInt("Win", 0) + 1);
                     Confeti.SetActive(true);
                     Moneda.SetActive(true);
                     Debug.Log("WIN! Player finished 2nd!");
