@@ -21250,10 +21250,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1745217449272516060, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Level2
-      objectReference: {fileID: 0}
+    - target: {fileID: 111313405054321364, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2097089572}
     - target: {fileID: 2121212387097891228, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: players
       value: 
@@ -21373,10 +21373,6 @@ PrefabInstance:
     - target: {fileID: 7554494448541579268, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: m_Name
       value: Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 7619040367402924285, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8534258934140502987, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
