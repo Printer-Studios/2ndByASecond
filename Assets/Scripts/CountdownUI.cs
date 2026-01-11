@@ -34,6 +34,7 @@ public class CountdownUI : MonoBehaviour
         }
 
         StartCoroutine(CountdownRoutine());
+        AudioManager.instance.StopMusic();
     }
 
     private IEnumerator CountdownRoutine()
@@ -46,6 +47,7 @@ public class CountdownUI : MonoBehaviour
         }
 
         // Hide after countdown finishes
+        AudioManager.instance.StartMusic("carrera");
         countdownImage.enabled = false;
         player.GetComponent<PlayerMovement>().enabled = true;
         Debug.Log(player.GetComponent<PlayerMovement>().enabled);

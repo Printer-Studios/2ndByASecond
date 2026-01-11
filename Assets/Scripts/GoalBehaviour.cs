@@ -33,11 +33,15 @@ public class GoalBehaviour : MonoBehaviour
                 {
                     PlayerPrefs.SetInt("Win", PlayerPrefs.GetInt("Win") + 1);
                     winPanel.SetActive(true);
+                    AudioManager.instance.StopMusic();
+                    AudioManager.instance.StartMusic("victoria");
                 }
                 else
                 {
                     Debug.Log("LOSE! Player finished " + playerPosition + "th");
                     losePanel.SetActive(true);
+                    AudioManager.instance.StopMusic();
+                    AudioManager.instance.StartMusic("derrota");
                 }
                 
                // root.GetComponent<PlayerMovement>().enabled = false;
