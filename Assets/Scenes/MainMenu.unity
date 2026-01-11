@@ -1575,52 +1575,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2b506856eeccaf42985c7179fdc90a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LinesCreditBehaviour
---- !u!1 &331350800
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 331350801}
-  - component: {fileID: 331350802}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &331350801
+--- !u!4 &331350801 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1632957202544246846, guid: 320cf9ea5c50fc64bb0960d33b9a46ee, type: 3}
+  m_PrefabInstance: {fileID: 5155642824197441408}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 331350800}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 411.53186, y: -5.3135996, z: -9720}
-  m_LocalScale: {x: 108, y: 108, z: 108}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1023143878}
-  - {fileID: 615223438}
-  m_Father: {fileID: 222152988}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &331350802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 331350800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4624dbf35aae6b4288df1590732f0da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
 --- !u!1 &339482381
 GameObject:
   m_ObjectHideFlags: 0
@@ -3449,45 +3408,12 @@ MonoBehaviour:
   speed: 0
   timer: 0
   cooldown: 0
---- !u!1 &615223437
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 615223438}
-  - component: {fileID: 615223439}
-  m_Layer: 0
-  m_Name: UI Sound Reproducer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &615223438
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 615223437}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 331350801}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &615223439
+--- !u!114 &615223439 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 8575498712012630500, guid: 320cf9ea5c50fc64bb0960d33b9a46ee, type: 3}
+  m_PrefabInstance: {fileID: 5155642824197441408}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 615223437}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd20aaea8c106a645bcc3856c93d80ff, type: 3}
@@ -6544,148 +6470,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2b506856eeccaf42985c7179fdc90a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LinesCreditBehaviour
---- !u!1 &1023143877
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1023143878}
-  - component: {fileID: 1023143879}
-  m_Layer: 0
-  m_Name: Event Reference
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1023143878
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1023143877}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 331350801}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1023143879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1023143877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfa9e7d3a5143824186e65caf313c19a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FMODEvents
-  <MusicaMenu>k__BackingField:
-    Guid:
-      Data1: -1883905168
-      Data2: 1185739113
-      Data3: -1983004496
-      Data4: -344086678
-    Path: event:/Musica/Menu
-  <MusicaCarrera>k__BackingField:
-    Guid:
-      Data1: -2106004072
-      Data2: 1255481293
-      Data3: -1551762755
-      Data4: 607052382
-    Path: event:/Musica/Carrera
-  <MusicaDerrota>k__BackingField:
-    Guid:
-      Data1: 1564347864
-      Data2: 1151506682
-      Data3: -1362136427
-      Data4: -1042193545
-    Path: event:/Musica/Derrota
-  <MusicaVictoria>k__BackingField:
-    Guid:
-      Data1: 1922392034
-      Data2: 1236093302
-      Data3: 1785877157
-      Data4: -657647415
-    Path: event:/Musica/Victoria
-  <Countdown321>k__BackingField:
-    Guid:
-      Data1: 843575606
-      Data2: 1075207425
-      Data3: -1707769701
-      Data4: 669600351
-    Path: event:/SFX/321
-  <Banana>k__BackingField:
-    Guid:
-      Data1: 176332094
-      Data2: 1222861758
-      Data3: 1049008819
-      Data4: -77195124
-    Path: event:/SFX/Banana
-  <Nitro>k__BackingField:
-    Guid:
-      Data1: 1405417180
-      Data2: 1318604646
-      Data3: -1359589725
-      Data4: -2062570101
-    Path: event:/SFX/Nitro
-  <PresentacioCoche1>k__BackingField:
-    Guid:
-      Data1: -1665635741
-      Data2: 1307329516
-      Data3: -217192262
-      Data4: -1589061638
-    Path: event:/SFX/Presentaciones/Coche 1
-  <PresentacioBebe>k__BackingField:
-    Guid:
-      Data1: 1318255190
-      Data2: 1293209980
-      Data3: -596087916
-      Data4: 588435623
-    Path: event:/SFX/Presentaciones/Bebe
-  <PresentacioBici>k__BackingField:
-    Guid:
-      Data1: -104423053
-      Data2: 1125637681
-      Data3: -447441733
-      Data4: -867376519
-    Path: event:/SFX/Presentaciones/Bici
-  <PresentacioCoche2>k__BackingField:
-    Guid:
-      Data1: 775957143
-      Data2: 1143962803
-      Data3: 647354789
-      Data4: -2085129184
-    Path: event:/SFX/Presentaciones/Coche 2
-  <PresentacioWhatsapp>k__BackingField:
-    Guid:
-      Data1: -1763326104
-      Data2: 1195547538
-      Data3: -1705173341
-      Data4: 1107890387
-    Path: event:/SFX/Presentaciones/Whatsapp
-  <woshProba>k__BackingField:
-    Guid:
-      Data1: -752869286
-      Data2: 1341454665
-      Data3: -1704051528
-      Data4: -1463130494
-    Path: event:/SFX/MouseClick
-  <BackGroundCarretera>k__BackingField:
-    Guid:
-      Data1: 265155157
-      Data2: 1229715298
-      Data3: -58962028
-      Data4: 1971712054
-    Path: event:/BackGround/Carreterra
 --- !u!1 &1041766157
 GameObject:
   m_ObjectHideFlags: 0
@@ -12655,6 +12439,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2b506856eeccaf42985c7179fdc90a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LinesCreditBehaviour
+--- !u!1001 &5155642824197441408
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 222152988}
+    m_Modifications:
+    - target: {fileID: 1443983203557242017, guid: 320cf9ea5c50fc64bb0960d33b9a46ee, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632957202544246846, guid: 320cf9ea5c50fc64bb0960d33b9a46ee, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 411.53186
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632957202544246846, guid: 320cf9ea5c50fc64bb0960d33b9a46ee, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.3135996
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632957202544246846, guid: 320cf9ea5c50fc64bb0960d33b9a46ee, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9720
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632957202544246846, guid: 320cf9ea5c50fc64bb0960d33b9a46ee, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632957202544246846, guid: 320cf9ea5c50fc64bb0960d33b9a46ee, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632957202544246846, guid: 320cf9ea5c50fc64bb0960d33b9a46ee, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632957202544246846, guid: 320cf9ea5c50fc64bb0960d33b9a46ee, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632957202544246846, guid: 320cf9ea5c50fc64bb0960d33b9a46ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632957202544246846, guid: 320cf9ea5c50fc64bb0960d33b9a46ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1632957202544246846, guid: 320cf9ea5c50fc64bb0960d33b9a46ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 320cf9ea5c50fc64bb0960d33b9a46ee, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

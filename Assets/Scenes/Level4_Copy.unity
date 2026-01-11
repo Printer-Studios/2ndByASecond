@@ -610551,6 +610551,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4152157880119498814, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2097089572}
+    - target: {fileID: 4152157880119498814, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: StopMusic
+      objectReference: {fileID: 0}
     - target: {fileID: 4273709611278707553, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
