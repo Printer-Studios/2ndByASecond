@@ -19,12 +19,12 @@ public class PauseShow : MonoBehaviour
             if (pausePanel.activeSelf)
             {
                 pausePanel.SetActive(false);
-                Time.timeScale = 0;
+                Time.timeScale = 1;
             }
             else
             {
                 pausePanel.SetActive(true);
-                Time.timeScale = 1;
+                Time.timeScale = 0;
             }
         }
     }

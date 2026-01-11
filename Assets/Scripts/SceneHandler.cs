@@ -33,4 +33,9 @@ public class SceneHandler : MonoBehaviour
             panel.SetActive(true);
         }
     }
+
+    public void Despause()
+    {
+        Time.timeScale = 1;
+    }
 }

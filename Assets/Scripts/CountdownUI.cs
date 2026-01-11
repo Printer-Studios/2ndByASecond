@@ -16,10 +16,12 @@ public class CountdownUI : MonoBehaviour
     [Header ("NPCs")]
     public GameObject[] npcs;
     
-    public GameObject player;
+    public GameObject players;
+    private GameObject player; 
 
     private void Start()
     {
+        player = players.transform.GetChild(PlayerPrefs.GetInt("PlayerSprite")).gameObject;
         player.GetComponent<PlayerMovement>().enabled = false;
         for (int i = 0; i < npcs.Length; i++)
         {
@@ -46,6 +48,7 @@ public class CountdownUI : MonoBehaviour
         // Hide after countdown finishes
         countdownImage.enabled = false;
         player.GetComponent<PlayerMovement>().enabled = true;
+        Debug.Log(player.GetComponent<PlayerMovement>().enabled);
         for (int i = 0; i < npcs.Length; i++)
         {
             npcs[i].GetComponent<NPCmovement>().enabled = true;

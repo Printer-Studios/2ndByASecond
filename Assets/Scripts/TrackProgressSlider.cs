@@ -6,13 +6,13 @@ public class TrackProgressSlider : MonoBehaviour
 {
     public Transform startPoint;
     public Transform endPoint;
-    public GameObject playes;
+    public GameObject players;
     private Transform player;
     public Slider progressSlider;
 
     private void Start()
     {
-        player = transform.GetChild(PlayerPrefs.GetInt("PlayerSprite"));
+        player = players.transform.GetChild(PlayerPrefs.GetInt("PlayerSprite"));
     }
 
     void Update()
