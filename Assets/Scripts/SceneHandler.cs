@@ -38,4 +38,9 @@ public class SceneHandler : MonoBehaviour
     {
         Time.timeScale = 1;
     }
+
+    public void StopMusic()
+    {
+        AudioManager.instance.StopMusic();
+    }
 }
