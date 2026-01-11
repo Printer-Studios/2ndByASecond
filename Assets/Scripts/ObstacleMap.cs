@@ -5,7 +5,7 @@ public class ObstacleMap : MonoBehaviour
     public GameObject obstaclesGran;
     private GameObject[] obstacles;
     
-    [SerializeField] private GameObject[] obstaclesMap;
+    public GameObject[] obstaclesMap;
     public GameObject mapStartPoint, mapFinishPoint;
     public GameObject canvas;
     public Transform startPoint, finishPoint;
