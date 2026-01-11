@@ -236255,6 +236255,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1672476491}
     - target: {fileID: 7004317876762173032, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: obstacleMap
+      value: 
+      objectReference: {fileID: 734320130}
+    - target: {fileID: 7004317876762173032, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: pauseAction
       value: 
       objectReference: {fileID: 636749235}
