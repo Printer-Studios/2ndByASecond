@@ -32,8 +32,9 @@ public class CountdownUI : MonoBehaviour
             Debug.LogError("CountdownUI is missing references.");
             return;
         }
-
+        AudioManager.instance.StopBackground();
         StartCoroutine(CountdownRoutine());
+        AudioManager.instance.PlayerOneShot(FMODEvents.instance.Countdown321, this.transform.position);
         AudioManager.instance.StopMusic();
     }
 

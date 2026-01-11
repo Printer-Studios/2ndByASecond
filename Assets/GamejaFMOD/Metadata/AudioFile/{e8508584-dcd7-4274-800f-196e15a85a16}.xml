@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{e8508584-dcd7-4274-800f-196e15a85a16}">
+		<property name="assetPath">
+			<value>Coche Engine/audi-v8-acceleration-sound-6067.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>13.688163265306123</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f9a1d39b-a122-40c7-9f69-0375a20ac546}</destination>
+		</relationship>
+	</object>
+</objects>

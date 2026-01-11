@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{9de869b7-1eeb-4de6-9506-49af47c513a8}">
+		<property name="assetPath">
+			<value>Fondo/Fondo.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>64.261224489795921</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f9a1d39b-a122-40c7-9f69-0375a20ac546}</destination>
+		</relationship>
+	</object>
+</objects>

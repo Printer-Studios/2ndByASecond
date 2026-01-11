@@ -12,9 +12,7 @@ public class AudioManager : MonoBehaviour
 
     private List<EventInstance> eventInstances;
     private EventInstance musicMenuEventInstance;
-    private EventInstance musicCarreraEventInstance;
-    private EventInstance musicVictoriaEventInstance;
-    private EventInstance musicDerrotaEventInstance;
+    private EventInstance backgroundNoiseEventInstance;
 
 
     public void Awake()
@@ -25,8 +23,23 @@ public class AudioManager : MonoBehaviour
         }
         instance = this;
     }
+    public void StartBackground()
+    {
+        InitializeBackground(FMODEvents.instance.BackGroundCarretera);
+    }
 
-  
+    private void InitializeBackground(EventReference background)
+    {
+        backgroundNoiseEventInstance = RuntimeManager.CreateInstance(background);
+        backgroundNoiseEventInstance.start();
+    }
+
+    public void StopBackground()
+    {
+        backgroundNoiseEventInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        backgroundNoiseEventInstance.release();
+    }
+
     private void InitializeMusic (EventReference music)
     {
         musicMenuEventInstance = RuntimeManager.CreateInstance(music);

@@ -91,6 +91,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (boostAction.action.WasPressedThisFrame() && canBoost)
         {
+            AudioManager.instance.PlayerOneShot(FMODEvents.instance.Nitro, this.transform.position);
             playerAnimator.SetBool("Accelerar", true);
             speed += boostSpeed;
             canBoost = false;

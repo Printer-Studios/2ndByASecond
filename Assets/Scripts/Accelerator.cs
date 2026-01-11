@@ -7,6 +7,7 @@ public class Accelerator : MonoBehaviour
     public int acceleratorValue;
     public Animator acelerar;
     public GameObject players;
+    public float timer = 0;
 
     void Start()
     {
@@ -20,11 +21,20 @@ public class Accelerator : MonoBehaviour
             other.gameObject.GetComponent<NPCmovement>().timeToChangeAcceleration = 2f;
         }
     }
-
+    void Update()
+    {
+        timer = timer + Time.deltaTime;
+    }
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            if (timer >= 0.5)
+            {
+                AudioManager.instance.PlayerOneShot(FMODEvents.instance.Nitro, this.transform.position);
+                timer = 0;
+            }
+            
             acelerar.SetBool("Accelerar", true);
             other.gameObject.GetComponent<PlayerMovement>().speed += acceleratorValue * Time.deltaTime;
         }
