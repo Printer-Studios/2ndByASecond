@@ -87,8 +87,6 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     }
                     break;
             }
-
-
         }
         if (other.transform.position.x >= GetComponentInParent<Transform>().position.x + 0.25 &&
             (other.CompareTag("Acc") || other.CompareTag("Deacc")))
@@ -237,71 +235,15 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     break;
             }
         }
-        //
-        //      PLAYER DETECTION
-        //
-        if (other.CompareTag("Player"))
-        {
-            rnd1 = random.Next(101);
-            if (other.transform.position.x >= GetComponentInParent<Transform>().position.x + 0.25)
-            {
-                npcObject.GetComponent<NPCmovement>().playerRight = true;
-                switch (currentTrackPlace)
-                {
-                    case 0:
-                        if (rnd1 <= 60)
-                        {
-                            npcObject.GetComponent<NPCmovement>().ForceMoveLaneBy(1);
-                        }
-                        break;
-                    case 2:
-                        if (rnd1 <= 50)
-                        {
-                            npcObject.GetComponent<NPCmovement>().ForceMoveLaneBy(1);
-                        }
-                        break;
-                    case 3:
-                        if (rnd1 <= 30)
-                        {
-                            npcObject.GetComponent<NPCmovement>().ForceMoveLaneBy(1);
-                        }
-                        break;
-                }
-            }
-            if (other.transform.position.x <= GetComponentInParent<Transform>().position.x - 0.25)
-            {
-                npcObject.GetComponent<NPCmovement>().playerLeft = true;
-                switch (currentTrackPlace)
-                {
-                    case 0:
-                        if (rnd1 <= 60)
-                        {
-                            npcObject.GetComponent<NPCmovement>().ForceMoveLaneBy(-1);
-                        }
-                        break;
-                    case 2:
-                        if (rnd1 <= 50)
-                        {
-                            npcObject.GetComponent<NPCmovement>().ForceMoveLaneBy(-1);
-                        }
-                        break;
-                    case 3:
-                        if (rnd1 <= 30)
-                        {
-                            npcObject.GetComponent<NPCmovement>().ForceMoveLaneBy(-1);
-                        }
-                        break;
-                }
-            }
-        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") || other.CompareTag("Car"))
         {
             if (other.transform.position.x >= GetComponentInParent<Transform>().position.x + 0.25) npcObject.GetComponent<NPCmovement>().playerRight = false;
-            if (other.transform.position.x <= GetComponentInParent<Transform>().position.x - 0.25) npcObject.GetComponent<NPCmovement>().playerLeft = false;   
+            if (other.transform.position.x <= GetComponentInParent<Transform>().position.x - 0.25) npcObject.GetComponent<NPCmovement>().playerLeft = false;
+            npcObject.GetComponent<NPCmovement>().setCarToCrashInto(null);
         }
     }
 }

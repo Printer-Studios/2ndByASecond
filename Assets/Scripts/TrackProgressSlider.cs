@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,8 +6,14 @@ public class TrackProgressSlider : MonoBehaviour
 {
     public Transform startPoint;
     public Transform endPoint;
-    public Transform player;
+    public GameObject playes;
+    private Transform player;
     public Slider progressSlider;
+
+    private void Start()
+    {
+        player = transform.GetChild(PlayerPrefs.GetInt("PlayerSprite"));
+    }
 
     void Update()
     {
