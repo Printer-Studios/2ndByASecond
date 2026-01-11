@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="49355800-fec1-4899-ba76-e9a8a231b049" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Gameja26/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Gameja26/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/DK Cool Crayon SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/DK Cool Crayon SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenuStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MedallasBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuCars.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerSpriteShowPodium.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteSetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrackProgressSlider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/setKnob.cs" root0="FORCE_HIGHLIGHTING" />
