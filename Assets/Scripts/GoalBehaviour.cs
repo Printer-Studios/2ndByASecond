@@ -40,7 +40,8 @@ public class GoalBehaviour : MonoBehaviour
                     losePanel.SetActive(true);
                 }
                 
-                root.GetComponent<PlayerMovement>().enabled = false;
+               // root.GetComponent<PlayerMovement>().enabled = false;
+                root.transform.GetChild(PlayerPrefs.GetInt("PlayerSprite")).GetComponent<PlayerMovement>().enabled = false;
             }
         }
     }
