@@ -145,6 +145,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2645961267097884784, guid: 5e9a2473f7367ae48917839c33399152, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1875801735638301503, guid: e90e9e7760013124299aaed86a04b3e7, type: 3}
+    - target: {fileID: 7648125836575728157, guid: 5e9a2473f7367ae48917839c33399152, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.8857143
+      objectReference: {fileID: 0}
+    - target: {fileID: 7648125836575728157, guid: 5e9a2473f7367ae48917839c33399152, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.0471427
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714663583674842184, guid: 5e9a2473f7367ae48917839c33399152, type: 3}
+      propertyPath: playerAnimator
+      value: 
+      objectReference: {fileID: 338267466618265822}
     - target: {fileID: 8965621926863935107, guid: 5e9a2473f7367ae48917839c33399152, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -191,6 +207,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9a2473f7367ae48917839c33399152, type: 3}
+--- !u!95 &338267466618265822 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2509101725392558350, guid: 5e9a2473f7367ae48917839c33399152, type: 3}
+  m_PrefabInstance: {fileID: 2766295175734868432}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6489567687388180307 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8965621926863935107, guid: 5e9a2473f7367ae48917839c33399152, type: 3}

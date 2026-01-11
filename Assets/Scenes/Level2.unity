@@ -20550,11 +20550,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8534258934140502987, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2097089572}
+    - target: {fileID: 8534258934140502987, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReloadScene
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+--- !u!1 &678457089 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3096254057805817602, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+  m_PrefabInstance: {fileID: 678457088}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &683347986
 GameObject:
   m_ObjectHideFlags: 0
@@ -149011,16 +149024,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &1561946344 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2465835394311937881, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
-  m_PrefabInstance: {fileID: 2123404791282248926}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1561946346 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 338267466618265822, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
-  m_PrefabInstance: {fileID: 2123404791282248926}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1562307443
 GameObject:
   m_ObjectHideFlags: 0
@@ -168783,6 +168786,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 663483871}
     - target: {fileID: 575941349166434036, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: boostSprite
+      value: 
+      objectReference: {fileID: 678457089}
+    - target: {fileID: 575941349166434036, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
       propertyPath: rightAction
       value: 
       objectReference: {fileID: 483658297}
@@ -168798,6 +168805,10 @@ PrefabInstance:
       propertyPath: boostAction
       value: 
       objectReference: {fileID: 663483871}
+    - target: {fileID: 1303892321671449677, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: boostSprite
+      value: 
+      objectReference: {fileID: 678457089}
     - target: {fileID: 1303892321671449677, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
       propertyPath: rightAction
       value: 
@@ -168827,10 +168838,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 693170466}
     - target: {fileID: 3025075547618217195, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1561946344}
-    - target: {fileID: 3025075547618217195, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
       propertyPath: speedText
       value: 
       objectReference: {fileID: 1781378204}
@@ -168855,6 +168862,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 663483871}
     - target: {fileID: 5925210088679199194, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: boostSprite
+      value: 
+      objectReference: {fileID: 678457089}
+    - target: {fileID: 5925210088679199194, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
       propertyPath: rightAction
       value: 
       objectReference: {fileID: 483658297}
@@ -168871,13 +168882,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 663483871}
     - target: {fileID: 6814912247982523800, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: boostSprite
+      value: 
+      objectReference: {fileID: 678457089}
+    - target: {fileID: 6814912247982523800, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
       propertyPath: rightAction
       value: 
       objectReference: {fileID: 483658297}
-    - target: {fileID: 6814912247982523800, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
-      propertyPath: playerAnimator
-      value: 
-      objectReference: {fileID: 1561946346}
     - target: {fileID: 6932450181340036393, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
       propertyPath: m_Name
       value: playerCars
@@ -168894,6 +168905,10 @@ PrefabInstance:
       propertyPath: boostAction
       value: 
       objectReference: {fileID: 663483871}
+    - target: {fileID: 7098865100806751744, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
+      propertyPath: boostSprite
+      value: 
+      objectReference: {fileID: 678457089}
     - target: {fileID: 7098865100806751744, guid: 832145ba7aa739a458e110ce0067d835, type: 3}
       propertyPath: rightAction
       value: 

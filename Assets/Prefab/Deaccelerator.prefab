@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   deacceleratorMultiplicator: 0.6
-  deacceleratorValue: -15
+  deacceleratorValue: -40
   frenar: {fileID: 0}
   players: {fileID: 0}
 --- !u!61 &373023532122928678
