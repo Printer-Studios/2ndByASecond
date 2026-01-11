@@ -8,13 +8,15 @@ public class GoalBehaviour : MonoBehaviour
     public GameObject winPanel, losePanel;
     public GameObject goalSergio;
 
+    public GameObject Confeti;
+    public GameObject Moneda;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         GameObject root = other.transform.root.gameObject;
 
         if (root.CompareTag("Player") || root.CompareTag("Car"))
         {
-            Debug.Log(root.name);
             if (!cars.Contains(root))
             {
                 cars.Add(root);
@@ -31,7 +33,9 @@ public class GoalBehaviour : MonoBehaviour
                 
                 if (playerPosition == 2)
                 {
-                    PlayerPrefs.SetInt("Win", PlayerPrefs.GetInt("Win") + 1);
+                    Confeti.SetActive(true);
+                    Moneda.SetActive(true);
+                    Debug.Log("WIN! Player finished 2nd!");
                     winPanel.SetActive(true);
                     AudioManager.instance.StopMusic();
                     AudioManager.instance.StartMusic("victoria");
@@ -43,8 +47,7 @@ public class GoalBehaviour : MonoBehaviour
                     AudioManager.instance.StopMusic();
                     AudioManager.instance.StartMusic("derrota");
                 }
-                
-               // root.GetComponent<PlayerMovement>().enabled = false;
+
                 root.transform.GetChild(PlayerPrefs.GetInt("PlayerSprite")).GetComponent<PlayerMovement>().enabled = false;
             }
         }
