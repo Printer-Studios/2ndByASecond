@@ -1141,9 +1141,9 @@ ParticleSystem:
     enabled: 1
     x:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 0.7853981
-      minScalar: 0
+      minMaxState: 3
+      scalar: 2.0943952
+      minScalar: 3.4906585
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1194,9 +1194,9 @@ ParticleSystem:
         m_RotationOrder: 4
     y:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 0.7853981
-      minScalar: 0
+      minMaxState: 3
+      scalar: 2.0943952
+      minScalar: 3.4906585
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1247,9 +1247,9 @@ ParticleSystem:
         m_RotationOrder: 4
     curve:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 0.7853981
-      minScalar: 0.7853982
+      minMaxState: 3
+      scalar: 2.0943952
+      minScalar: 3.4906585
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -2685,7 +2685,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
   NoiseModule:
-    enabled: 1
+    enabled: 0
     strength:
       serializedVersion: 2
       minMaxState: 0

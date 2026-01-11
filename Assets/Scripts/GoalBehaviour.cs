@@ -43,8 +43,8 @@ public class GoalBehaviour : MonoBehaviour
                     Debug.Log("LOSE! Player finished " + playerPosition + "th");
                     losePanel.SetActive(true);
                 }
-                
-                root.GetComponent<PlayerMovement>().enabled = false;
+
+                root.transform.GetChild(PlayerPrefs.GetInt("PlayerSprite")).GetComponent<PlayerMovement>().enabled = false;
             }
         }
     }
