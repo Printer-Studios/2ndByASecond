@@ -1083,7 +1083,7 @@ PrefabInstance:
       objectReference: {fileID: 1472239152}
     - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: deacceleratorValue
-      value: -7
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 4465980785983947933, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: m_Name
@@ -7894,7 +7894,7 @@ PrefabInstance:
       objectReference: {fileID: 1472239152}
     - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: deacceleratorValue
-      value: -7
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 4465980785983947933, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: m_Name
@@ -10600,7 +10600,7 @@ PrefabInstance:
       objectReference: {fileID: 1472239152}
     - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: deacceleratorValue
-      value: -7
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 4465980785983947933, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: m_Name
@@ -13445,7 +13445,7 @@ PrefabInstance:
       objectReference: {fileID: 1472239152}
     - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: deacceleratorValue
-      value: -7
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 4465980785983947933, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: m_Name
@@ -126854,7 +126854,7 @@ PrefabInstance:
       objectReference: {fileID: 1472239152}
     - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: deacceleratorValue
-      value: -7
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 4465980785983947933, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: m_Name
@@ -127196,7 +127196,7 @@ PrefabInstance:
       objectReference: {fileID: 1472239152}
     - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: deacceleratorValue
-      value: -7
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 4465980785983947933, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: m_Name
@@ -129265,6 +129265,10 @@ PrefabInstance:
       propertyPath: players
       value: 
       objectReference: {fileID: 1472239152}
+    - target: {fileID: 3942082649306182644, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
+      propertyPath: deacceleratorValue
+      value: -15
+      objectReference: {fileID: 0}
     - target: {fileID: 4465980785983947933, guid: 5b73e7282245f25429ec99eb5b7152e0, type: 3}
       propertyPath: m_Name
       value: Deaccelerator

@@ -8,6 +8,9 @@ public class GoalBehaviour : MonoBehaviour
     public GameObject winPanel, losePanel;
     public GameObject goalSergio;
 
+    public GameObject Confeti;
+    public GameObject Moneda;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         GameObject root = other.transform.root.gameObject;
@@ -30,6 +33,8 @@ public class GoalBehaviour : MonoBehaviour
                 
                 if (playerPosition == 2)
                 {
+                    Confeti.SetActive(true);
+                    Moneda.SetActive(true);
                     Debug.Log("WIN! Player finished 2nd!");
                     winPanel.SetActive(true);
                 }
