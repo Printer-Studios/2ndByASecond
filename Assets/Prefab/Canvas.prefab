@@ -616,7 +616,7 @@ MonoBehaviour:
   - {fileID: 1134481321661038881}
   - {fileID: 6025665862087457942}
   negroSprite: {fileID: 5190034159199624111, guid: 7f01a9f764f65004e8964f128e82fb13, type: 3}
-  medallaSprite: {fileID: -8449628242078270322, guid: 52b304e1652725c4dae6a8a95fcac7c5, type: 3}
+  medallaSprite: {fileID: -8449628242078270322, guid: d1c4eebc30d24804eb9eaa77f5b602da, type: 3}
 --- !u!1 &1900748445352784708
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,7 +1326,7 @@ MonoBehaviour:
   - {fileID: 7367747676969163605}
   - {fileID: 5011939635551464004}
   negroSprite: {fileID: 5190034159199624111, guid: 7f01a9f764f65004e8964f128e82fb13, type: 3}
-  medallaSprite: {fileID: -8449628242078270322, guid: 52b304e1652725c4dae6a8a95fcac7c5, type: 3}
+  medallaSprite: {fileID: -8449628242078270322, guid: d1c4eebc30d24804eb9eaa77f5b602da, type: 3}
 --- !u!1 &3370138491662519609
 GameObject:
   m_ObjectHideFlags: 0
