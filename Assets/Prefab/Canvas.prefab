@@ -486,8 +486,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You got 2nd place and "WON"!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: bdea864cd914d1a41ad2e1a6e8bc3102, type: 2}
-  m_sharedMaterial: {fileID: 2781511113892343757, guid: bdea864cd914d1a41ad2e1a6e8bc3102, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7982b8267e2ecd44299f2a73d2905a5b, type: 2}
+  m_sharedMaterial: {fileID: -478134368397878094, guid: 7982b8267e2ecd44299f2a73d2905a5b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -704,6 +704,7 @@ GameObject:
   - component: {fileID: 7195731422220443797}
   - component: {fileID: 2478764204062535216}
   - component: {fileID: 1745217449272516060}
+  - component: {fileID: 7154401653690815849}
   m_Layer: 5
   m_Name: ButtonNextRace
   m_TagString: Untagged
@@ -821,9 +822,23 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level2
+          m_StringArgument: Finish
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7154401653690815849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953410018805060832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b963ca1f50f0344990bb1de61cf5ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  buttonToClick: {fileID: 0}
+  actionReference: {fileID: 0}
 --- !u!1 &2062405277289551126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1481,7 +1496,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: YOU DIDN'T GET 2ND PLACE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: bdea864cd914d1a41ad2e1a6e8bc3102, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7982b8267e2ecd44299f2a73d2905a5b, type: 2}
   m_sharedMaterial: {fileID: 2781511113892343757, guid: bdea864cd914d1a41ad2e1a6e8bc3102, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2481,6 +2496,7 @@ GameObject:
   - component: {fileID: 6682068876812481301}
   - component: {fileID: 4609142394670166487}
   - component: {fileID: 8534258934140502987}
+  - component: {fileID: 1749971057543318148}
   m_Layer: 5
   m_Name: RetryButton
   m_TagString: Untagged
@@ -2589,7 +2605,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 9071217358064835185}
         m_TargetAssemblyTypeName: SceneHandler, Assembly-CSharp
         m_MethodName: ReloadScene
         m_Mode: 1
@@ -2601,6 +2617,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1749971057543318148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5472989018002283332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b963ca1f50f0344990bb1de61cf5ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InvokeButton
+  buttonToClick: {fileID: 0}
+  actionReference: {fileID: 0}
 --- !u!1 &5518761255611622607
 GameObject:
   m_ObjectHideFlags: 0

@@ -59,6 +59,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Reset",
+                    "type": "Button",
+                    "id": "44763984-f2cf-4dc0-b410-40777e847571",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -219,7 +228,7 @@
                 {
                     "name": "",
                     "id": "73794be6-cdb2-48d6-a87e-807cebaeb81f",
-                    "path": "<Keyboard>/escape",
+                    "path": "<Keyboard>/tab",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -246,6 +255,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6c172498-d963-482d-b893-8ba3aced5a3e",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8256aa7b-7cf9-4d6a-baa5-99994ea0afd0",
+                    "path": "<Gamepad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

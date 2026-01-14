@@ -5337,6 +5337,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4434175821537128109, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
+      propertyPath: resetButton
+      value: 
+      objectReference: {fileID: 652975567}
     - target: {fileID: 5470958018454605479, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
       propertyPath: playerCars
       value: 
@@ -6882,6 +6886,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &174402096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: Player/Boost
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_ActionId: 03f17531-2d35-4ebd-91b6-2806ad0cb1b4
 --- !u!1001 &179820080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23637,6 +23655,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1249180700}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &652975567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: Player/Reset
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_ActionId: 44763984-f2cf-4dc0-b410-40777e847571
 --- !u!1 &654879560
 GameObject:
   m_ObjectHideFlags: 0
@@ -25132,6 +25164,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1749971057543318148, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: actionReference
+      value: 
+      objectReference: {fileID: 174402096}
     - target: {fileID: 2121212387097891228, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: players
       value: 
@@ -25264,6 +25300,10 @@ PrefabInstance:
       propertyPath: pauseAction
       value: 
       objectReference: {fileID: 2067506854}
+    - target: {fileID: 7154401653690815849, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
+      propertyPath: actionReference
+      value: 
+      objectReference: {fileID: 1327704598}
     - target: {fileID: 7554494448541579268, guid: b671faa4358f06c4a90d267af580f78d, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -183689,6 +183729,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1327704598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: Player/Boost
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_ActionId: 03f17531-2d35-4ebd-91b6-2806ad0cb1b4
 --- !u!1 &1327922283
 GameObject:
   m_ObjectHideFlags: 0
@@ -200746,99 +200800,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1001 &1769937463
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5470958018454605479, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: playerCars
-      value: 
-      objectReference: {fileID: 1472239152}
-    - target: {fileID: 5470958018454605479, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: cars.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5470958018454605479, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: 'cars.Array.data[0]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5470958018454605479, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: 'cars.Array.data[1]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5470958018454605479, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: 'cars.Array.data[2]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5470958018454605479, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: 'cars.Array.data[3]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5470958018454605479, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: sprites.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5470958018454605479, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: 'sprites.Array.data[0]'
-      value: 
-      objectReference: {fileID: -6224906880762268770, guid: 75bca444721e63c458f03ee37fdd670d, type: 3}
-    - target: {fileID: 5470958018454605479, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: 'sprites.Array.data[4]'
-      value: 
-      objectReference: {fileID: -1875801735638301503, guid: e90e9e7760013124299aaed86a04b3e7, type: 3}
-    - target: {fileID: 5848862461229797855, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.46044
-      objectReference: {fileID: 0}
-    - target: {fileID: 5848862461229797855, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 31.94383
-      objectReference: {fileID: 0}
-    - target: {fileID: 5848862461229797855, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5848862461229797855, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5848862461229797855, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5848862461229797855, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5848862461229797855, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5848862461229797855, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5848862461229797855, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5848862461229797855, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6898736172852531081, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
-      propertyPath: m_Name
-      value: RaceManager
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 641e7d1ad38e2af4d997d87e5218fe09, type: 3}
 --- !u!1 &1771642258
 GameObject:
   m_ObjectHideFlags: 0
@@ -217309,7 +217270,6 @@ SceneRoots:
   - {fileID: 734320129}
   - {fileID: 2097089573}
   - {fileID: 450543793}
-  - {fileID: 1769937463}
   - {fileID: 278645839}
   - {fileID: 2123404791282248926}
   - {fileID: 406686235}

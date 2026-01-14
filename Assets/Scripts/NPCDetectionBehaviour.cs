@@ -4,7 +4,6 @@ public class NPCDetectionBehaviour : MonoBehaviour
 {
     [SerializeField] private int currentTrackPlace;
     private GoalSergio goalManager;
-    private System.Random random;
     private GameObject npcObject;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -37,7 +36,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
             switch (currentTrackPlace)
             {
                 case 0:
-                    rnd1 = random.Next(101);
+                    rnd1 = Random.Range(0, 101);
                     if (other.CompareTag("Acc"))
                     {
                         if (rnd1 <= 80)
@@ -47,7 +46,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     }
                     break;
                 case 1:
-                    rnd1 = random.Next(101);
+                    rnd1 = Random.Range(0, 101);
                     if (other.CompareTag("Acc"))
                     {
                         if (rnd1 <= 30)
@@ -57,7 +56,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     }
                     else if (other.CompareTag("Deacc"))
                     {
-                        rnd1 = random.Next(101);
+                        rnd1 = Random.Range(0, 101);
                         if (rnd1 <= 30)
                         {
                             npcObject.GetComponent<NPCmovement>().ForceMoveLaneBy(2);
@@ -65,7 +64,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     }
                     break;
                 case 2:
-                    rnd1 = random.Next(101);
+                    rnd1 = Random.Range(0, 101);
                     if (other.CompareTag("Deacc"))
                     {
                         if (rnd1 <= 80)
@@ -94,7 +93,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
             switch (currentTrackPlace)
             {
                 case 0:
-                    rnd1 = random.Next(101);
+                    rnd1 = Random.Range(0, 101);
                     if (other.CompareTag("Acc"))
                     {
                         if (rnd1 <= 20)
@@ -104,7 +103,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     }
                     else if (other.CompareTag("Deacc"))
                     {
-                        rnd1 = random.Next(101);
+                        rnd1 = Random.Range(0, 101);
                         if (rnd1 <= 80)
                         {
                             npcObject.GetComponent<NPCmovement>().ForceMoveLaneBy(1);
@@ -112,7 +111,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     }
                     break;
                 case 1:
-                    rnd1 = random.Next(101);
+                    rnd1 = Random.Range(0, 101);
                     if (other.CompareTag("Acc"))
                     {
                         if (rnd1 <= 30)
@@ -122,7 +121,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     }
                     else if (other.CompareTag("Deacc"))
                     {
-                        rnd1 = random.Next(101);
+                        rnd1 = Random.Range(0, 101);
                         if (rnd1 <= 30)
                         {
                             npcObject.GetComponent<NPCmovement>().ForceMoveLaneBy(1);
@@ -130,7 +129,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     }
                     break;
                 case 2:
-                    rnd1 = random.Next(101);
+                    rnd1 = Random.Range(0, 101);
                     if (other.CompareTag("Acc"))
                     {
                         if (rnd1 <= 80)
@@ -140,7 +139,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     }
                     else if (other.CompareTag("Deacc"))
                     {
-                        rnd1 = random.Next(101);
+                        rnd1 = Random.Range(0, 101);
                         if (rnd1 <= 20)
                         {
                             npcObject.GetComponent<NPCmovement>().ForceMoveLaneBy(1);
@@ -168,7 +167,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
             switch (currentTrackPlace)
             {
                 case 0:
-                    rnd1 = random.Next(101);
+                    rnd1 = Random.Range(0, 101);
                     if (other.CompareTag("Acc"))
                     {
                         if (rnd1 <= 20)
@@ -178,7 +177,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     }
                     else if (other.CompareTag("Deacc"))
                     {
-                        rnd1 = random.Next(101);
+                        rnd1 = Random.Range(0, 101);
                         if (rnd1 <= 80)
                         {
                             npcObject.GetComponent<NPCmovement>().ForceMoveLaneBy(-1);
@@ -186,7 +185,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     }
                     break;
                 case 1:
-                    rnd1 = random.Next(101);
+                    rnd1 = Random.Range(0, 101);
                     if (other.CompareTag("Acc"))
                     {
                         if (rnd1 <= 30)
@@ -196,7 +195,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     }
                     else if (other.CompareTag("Deacc"))
                     {
-                        rnd1 = random.Next(101);
+                        rnd1 = Random.Range(0, 101);
                         if (rnd1 <= 30)
                         {
                             npcObject.GetComponent<NPCmovement>().ForceMoveLaneBy(-1);
@@ -204,7 +203,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     }
                     break;
                 case 2:
-                    rnd1 = random.Next(101);
+                    rnd1 = Random.Range(0, 101);
                     if (other.CompareTag("Acc"))
                     {
                         if (rnd1 <= 80)
@@ -214,7 +213,7 @@ public class NPCDetectionBehaviour : MonoBehaviour
                     }
                     else if (other.CompareTag("Deacc"))
                     {
-                        rnd1 = random.Next(101);
+                        rnd1 = Random.Range(0, 101);
                         if (rnd1 <= 20)
                         {
                             npcObject.GetComponent<NPCmovement>().ForceMoveLaneBy(-1);
