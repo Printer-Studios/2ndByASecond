@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5848862461229797855}
   - component: {fileID: 5470958018454605479}
+  - component: {fileID: 4434175821537128109}
   m_Layer: 0
   m_Name: RaceManager
   m_TagString: Untagged
@@ -45,12 +46,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   sprites:
-  - {fileID: -250119222720575664, guid: f03427e67c059d14eb971105d597f2e6, type: 3}
   - {fileID: 7095036896258224715, guid: 01a4c3264dd8e494b8a10eb71abc3082, type: 3}
   - {fileID: 21300000, guid: 390bd002d2cbf224cbf4c08746bc272f, type: 3}
   - {fileID: -8012221784659206916, guid: db18fa60aacbe5945b1bdf76eabecf6d, type: 3}
+  - {fileID: -1875801735638301503, guid: e90e9e7760013124299aaed86a04b3e7, type: 3}
+  - {fileID: -6224906880762268770, guid: 75bca444721e63c458f03ee37fdd670d, type: 3}
   cars:
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+--- !u!114 &4434175821537128109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6898736172852531081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e20e8f205eca046919e827ca0e6f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  resetButton: {fileID: 0}
