@@ -5,9 +5,17 @@ public class Movement : MonoBehaviour
 {
     public int currentLane, trackPosition;
     public float speed;
-    public bool hasPowerUp;
+    public bool HasPower, EndPower;
     public Animator playerAnimator;
     private LevelManager levelManager;
+    public float boostSpeed, boostTimer, cooldown;
+
+    public enum Powers
+    {
+        Boost,
+        Stop
+    }
+    public Powers CarPower;
 
     private void Start()
     {
@@ -52,5 +60,37 @@ public class Movement : MonoBehaviour
     public void Move()
     {
         gameObject.transform.position = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y + speed * Time.deltaTime);
+    }
+
+    public void Power()
+    {
+        
+        switch (CarPower)
+        {
+            case Powers.Boost:
+                if (HasPower)
+                {
+                    //AudioManager.instance.PlayerOneShot(FMODEvents.instance.Nitro, this.transform.position);
+                    //playerAnimator.SetBool("Accelerar", true);
+                    speed += boostSpeed;
+                    HasPower = false;
+                    boostTimer = 0;
+                    //boostSprite.GetComponent<RawImage>().color = new Color(1, 1, 1, 0.2f);
+                }
+                if (!HasPower && !EndPower)
+                {
+                    boostTimer += Time.deltaTime;
+                    if (boostTimer >= cooldown)
+                    {
+                        boostTimer = 0;
+                        speed -= boostSpeed/2;
+                        EndPower = true;
+                    }
+                }
+                break;
+            case Powers.Stop:
+
+                break;
+        }
     }
 }
