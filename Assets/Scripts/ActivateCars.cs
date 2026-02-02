@@ -23,7 +23,6 @@ public class ActivateCars : MonoBehaviour
             {
                 aleaNPC = Random.Range(0, transform.childCount);
             } while (aleaNPC == PlayerPrefs.GetInt("PlayerSprite") || transform.GetChild(aleaNPC).gameObject.activeSelf);
-            Debug.Log(transform.GetChild(aleaNPC).gameObject);
             transform.GetChild(aleaNPC).gameObject.SetActive(true);
             transform.GetChild(aleaNPC).gameObject.GetComponent<Movement>().enabled = true;
         }

@@ -168,8 +168,14 @@ MonoBehaviour:
   currentLane: 0
   trackPosition: 0
   speed: 0
-  hasPowerUp: 0
+  HasPower: 1
+  EndPower: 0
   playerAnimator: {fileID: 0}
+  boostSpeed: 10
+  boostTimer: 0
+  cooldown: 0
+  Brake: 0
+  CarPower: 0
   increaseSpeed: 0
 --- !u!114 &13587355
 MonoBehaviour:
@@ -186,8 +192,14 @@ MonoBehaviour:
   currentLane: 5
   trackPosition: 0
   speed: 10
-  hasPowerUp: 0
+  HasPower: 0
+  EndPower: 0
   playerAnimator: {fileID: 0}
+  boostSpeed: 10
+  boostTimer: 0
+  cooldown: 1
+  Brake: 0
+  CarPower: 0
 --- !u!212 &13587356
 SpriteRenderer:
   serializedVersion: 2
@@ -296,8 +308,14 @@ MonoBehaviour:
   currentLane: 0
   trackPosition: 0
   speed: 0
-  hasPowerUp: 0
+  HasPower: 1
+  EndPower: 0
   playerAnimator: {fileID: 0}
+  boostSpeed: 10
+  boostTimer: 0
+  cooldown: 0
+  Brake: 0
+  CarPower: 0
   increaseSpeed: 0
 --- !u!114 &271461779
 MonoBehaviour:
@@ -314,8 +332,14 @@ MonoBehaviour:
   currentLane: 1
   trackPosition: 0
   speed: 10
-  hasPowerUp: 0
+  HasPower: 0
+  EndPower: 0
   playerAnimator: {fileID: 0}
+  boostSpeed: 10
+  boostTimer: 0
+  cooldown: 1
+  Brake: 0
+  CarPower: 0
 --- !u!212 &271461780
 SpriteRenderer:
   serializedVersion: 2
@@ -424,8 +448,14 @@ MonoBehaviour:
   currentLane: 0
   trackPosition: 0
   speed: 0
-  hasPowerUp: 0
+  HasPower: 1
+  EndPower: 0
   playerAnimator: {fileID: 0}
+  boostSpeed: 10
+  boostTimer: 0
+  cooldown: 0
+  Brake: 0
+  CarPower: 0
   increaseSpeed: 0
 --- !u!114 &297420926
 MonoBehaviour:
@@ -442,8 +472,14 @@ MonoBehaviour:
   currentLane: 2
   trackPosition: 0
   speed: 10
-  hasPowerUp: 0
+  HasPower: 0
+  EndPower: 0
   playerAnimator: {fileID: 0}
+  boostSpeed: 10
+  boostTimer: 0
+  cooldown: 1
+  Brake: 0
+  CarPower: 0
 --- !u!212 &297420927
 SpriteRenderer:
   serializedVersion: 2
@@ -634,8 +670,14 @@ MonoBehaviour:
   currentLane: 0
   trackPosition: 0
   speed: 0
-  hasPowerUp: 0
+  HasPower: 1
+  EndPower: 0
   playerAnimator: {fileID: 0}
+  boostSpeed: 10
+  boostTimer: 0
+  cooldown: 0
+  Brake: 0
+  CarPower: 0
   increaseSpeed: 0
 --- !u!114 &1170004828
 MonoBehaviour:
@@ -652,8 +694,14 @@ MonoBehaviour:
   currentLane: 3
   trackPosition: 0
   speed: 10
-  hasPowerUp: 0
+  HasPower: 0
+  EndPower: 0
   playerAnimator: {fileID: 0}
+  boostSpeed: 10
+  boostTimer: 0
+  cooldown: 1
+  Brake: 0
+  CarPower: 0
 --- !u!212 &1170004829
 SpriteRenderer:
   serializedVersion: 2
@@ -793,8 +841,14 @@ MonoBehaviour:
   currentLane: 0
   trackPosition: 0
   speed: 0
-  hasPowerUp: 0
+  HasPower: 1
+  EndPower: 0
   playerAnimator: {fileID: 0}
+  boostSpeed: 10
+  boostTimer: 0
+  cooldown: 0
+  Brake: 0
+  CarPower: 0
   increaseSpeed: 0
 --- !u!114 &1398768976
 MonoBehaviour:
@@ -811,8 +865,14 @@ MonoBehaviour:
   currentLane: 4
   trackPosition: 0
   speed: 10
-  hasPowerUp: 0
+  HasPower: 0
+  EndPower: 0
   playerAnimator: {fileID: 0}
+  boostSpeed: 10
+  boostTimer: 0
+  cooldown: 1
+  Brake: 0
+  CarPower: 0
 --- !u!212 &1398768977
 SpriteRenderer:
   serializedVersion: 2
@@ -981,8 +1041,14 @@ MonoBehaviour:
   currentLane: 0
   trackPosition: 0
   speed: 10
-  hasPowerUp: 0
+  HasPower: 1
+  EndPower: 0
   playerAnimator: {fileID: 0}
+  boostSpeed: 10
+  boostTimer: 0
+  cooldown: 0
+  Brake: 0
+  CarPower: 1
   increaseSpeed: 1
 --- !u!114 &1847915702
 MonoBehaviour:
@@ -999,8 +1065,14 @@ MonoBehaviour:
   currentLane: 0
   trackPosition: 0
   speed: 0
-  hasPowerUp: 0
+  HasPower: 0
+  EndPower: 0
   playerAnimator: {fileID: 0}
+  boostSpeed: 10
+  boostTimer: 0
+  cooldown: 1
+  Brake: 0
+  CarPower: 1
 --- !u!114 &1847915703
 MonoBehaviour:
   m_ObjectHideFlags: 0

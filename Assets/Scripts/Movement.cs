@@ -5,10 +5,10 @@ public class Movement : MonoBehaviour
 {
     public int currentLane, trackPosition;
     public float speed;
-    public bool HasPower, EndPower;
+    public bool HasPower = true, EndPower = false;
     public Animator playerAnimator;
     private LevelManager levelManager;
-    public float boostSpeed, boostTimer, cooldown;
+    public float boostSpeed, boostTimer, cooldown, Brake;
 
     public enum Powers
     {
@@ -43,10 +43,8 @@ public class Movement : MonoBehaviour
     
     public void ChangeLane(int change)
     {
-        Debug.Log("ahhvans");
         if (canChangeLane(currentLane, change))
         {
-            Debug.Log("ahh");
             currentLane = currentLane + change;
             transform.position = new Vector2(currentLane * levelManager.laneSeparation, transform.position.y);
         }
@@ -68,15 +66,16 @@ public class Movement : MonoBehaviour
         switch (CarPower)
         {
             case Powers.Boost:
-                if (HasPower)
+                if (!EndPower)
                 {
-                    //AudioManager.instance.PlayerOneShot(FMODEvents.instance.Nitro, this.transform.position);
-                    //playerAnimator.SetBool("Accelerar", true);
                     speed += boostSpeed;
                     HasPower = false;
                     boostTimer = 0;
+                    //AudioManager.instance.PlayerOneShot(FMODEvents.instance.Nitro, this.transform.position);
+                    //playerAnimator.SetBool("Accelerar", true);
                     //boostSprite.GetComponent<RawImage>().color = new Color(1, 1, 1, 0.2f);
                 }
+                
                 if (!HasPower && !EndPower)
                 {
                     boostTimer += Time.deltaTime;
@@ -88,8 +87,28 @@ public class Movement : MonoBehaviour
                     }
                 }
                 break;
-            case Powers.Stop:
-
+            case Powers.Stop: //CAMBIAR STOP ESTO ES SOLO PARA PROBAR MULTIPLES POWERS
+                Brake = speed;
+                if (!EndPower)
+                {
+                    speed -= Brake;
+                    HasPower = false;
+                    boostTimer = 0;
+                    //AudioManager.instance.PlayerOneShot(FMODEvents.instance.Nitro, this.transform.position);
+                    //playerAnimator.SetBool("Accelerar", true);
+                    //boostSprite.GetComponent<RawImage>().color = new Color(1, 1, 1, 0.2f);
+                }
+                
+                if (!HasPower && !EndPower)
+                {
+                    boostTimer += Time.deltaTime;
+                    if (boostTimer >= cooldown)
+                    {
+                        boostTimer = 0;
+                        speed += Brake/2;
+                        EndPower = true;
+                    }
+                }
                 break;
         }
     }

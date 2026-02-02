@@ -6,7 +6,8 @@ public class NEWPlayerMovement : Movement
 {
     public float increaseSpeed;
     private Vector2 moveInput;
-    private float lastX;
+    private float lastX, powerTimer;
+    private bool activatePower = false;
 
     void Update()
     {
@@ -16,6 +17,7 @@ public class NEWPlayerMovement : Movement
         {
             speed += increaseSpeed * Time.deltaTime;
         }
+        ActivatePower();
     }
 
     public void OnMove(InputValue value)
@@ -30,6 +32,25 @@ public class NEWPlayerMovement : Movement
 
         lastX = input.x;
         moveInput = input;
+    }
+
+    public void OnPower(InputValue value)
+    {
+        if (HasPower)
+        {
+            activatePower = true;
+            powerTimer = 0;
+            HasPower = false;   
+        }
+    }
+
+    private void ActivatePower()
+    {
+        powerTimer += Time.deltaTime;
+        if (activatePower && powerTimer <= 1.2)
+        {
+            Power();
+        }
     }
 
 }

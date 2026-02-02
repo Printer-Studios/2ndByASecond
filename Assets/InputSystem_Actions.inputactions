@@ -7,7 +7,7 @@
             "id": "df70fa95-8a34-4494-b137-73ab6b9c7d37",
             "actions": [
                 {
-                    "name": "Boost",
+                    "name": "Power",
                     "type": "Button",
                     "id": "03f17531-2d35-4ebd-91b6-2806ad0cb1b4",
                     "expectedControlType": "",
@@ -51,7 +51,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Boost",
+                    "action": "Power",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -62,7 +62,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Boost",
+                    "action": "Power",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
