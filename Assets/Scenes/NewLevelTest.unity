@@ -171,10 +171,6 @@ MonoBehaviour:
   hasPowerUp: 0
   playerAnimator: {fileID: 0}
   increaseSpeed: 0
-  upAction: {fileID: 0}
-  leftAction: {fileID: 0}
-  rightAction: {fileID: 0}
-  boostAction: {fileID: 0}
 --- !u!114 &13587355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -303,10 +299,6 @@ MonoBehaviour:
   hasPowerUp: 0
   playerAnimator: {fileID: 0}
   increaseSpeed: 0
-  upAction: {fileID: 0}
-  leftAction: {fileID: 0}
-  rightAction: {fileID: 0}
-  boostAction: {fileID: 0}
 --- !u!114 &271461779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -435,10 +427,6 @@ MonoBehaviour:
   hasPowerUp: 0
   playerAnimator: {fileID: 0}
   increaseSpeed: 0
-  upAction: {fileID: 0}
-  leftAction: {fileID: 0}
-  rightAction: {fileID: 0}
-  boostAction: {fileID: 0}
 --- !u!114 &297420926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -546,20 +534,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2144027236}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &645272221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
-  m_Name: Player/Up
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
-  m_Asset: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  m_ActionId: c4db886b-987c-4bb4-9983-f5e16c925ecf
 --- !u!1 &784609907
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,7 +563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d38583ec95d88e44da96de5f59fad51e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  levelManager: {fileID: 0}
+  levelManager: {fileID: 2144027235}
 --- !u!4 &784609909
 Transform:
   m_ObjectHideFlags: 0
@@ -611,34 +585,6 @@ Transform:
   - {fileID: 13587353}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &956689413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
-  m_Name: Player/Left
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
-  m_Asset: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  m_ActionId: d1a49fe8-74ae-44fd-94d6-6ac9031ba9e8
---- !u!114 &1067061400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
-  m_Name: Player/Right
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
-  m_Asset: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  m_ActionId: 31f7e8c8-aae5-48fb-8843-19baf9cadb52
 --- !u!1 &1170004825
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,10 +637,6 @@ MonoBehaviour:
   hasPowerUp: 0
   playerAnimator: {fileID: 0}
   increaseSpeed: 0
-  upAction: {fileID: 0}
-  leftAction: {fileID: 0}
-  rightAction: {fileID: 0}
-  boostAction: {fileID: 0}
 --- !u!114 &1170004828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -854,10 +796,6 @@ MonoBehaviour:
   hasPowerUp: 0
   playerAnimator: {fileID: 0}
   increaseSpeed: 0
-  upAction: {fileID: 0}
-  leftAction: {fileID: 0}
-  rightAction: {fileID: 0}
-  boostAction: {fileID: 0}
 --- !u!114 &1398768976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -946,6 +884,7 @@ GameObject:
   - component: {fileID: 1847915699}
   - component: {fileID: 1847915701}
   - component: {fileID: 1847915702}
+  - component: {fileID: 1847915703}
   m_Layer: 0
   m_Name: CarPlayer
   m_TagString: Untagged
@@ -1045,10 +984,6 @@ MonoBehaviour:
   hasPowerUp: 0
   playerAnimator: {fileID: 0}
   increaseSpeed: 1
-  upAction: {fileID: 645272221}
-  leftAction: {fileID: 956689413}
-  rightAction: {fileID: 1067061400}
-  boostAction: {fileID: 2114363381}
 --- !u!114 &1847915702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1066,6 +1001,36 @@ MonoBehaviour:
   speed: 0
   hasPowerUp: 0
   playerAnimator: {fileID: 0}
+--- !u!114 &1847915703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847915697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
+  m_Actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: Keyboard&Mouse
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &2058857085
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,20 +1138,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CameraTracker
   offset: 0
   players: {fileID: 784609907}
---- !u!114 &2114363381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
-  m_Name: Player/Boost
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
-  m_Asset: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  m_ActionId: 03f17531-2d35-4ebd-91b6-2806ad0cb1b4
 --- !u!1 &2144027234
 GameObject:
   m_ObjectHideFlags: 0
