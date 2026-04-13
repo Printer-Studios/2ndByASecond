@@ -5,6 +5,7 @@ using Random = UnityEngine.Random;
 public class ActivateCars : MonoBehaviour
 {
     public LevelManager levelManager;
+    public Action CarsActivated;
 
     private void Awake()
     {
@@ -27,5 +28,6 @@ public class ActivateCars : MonoBehaviour
             transform.GetChild(aleaNPC).gameObject.SetActive(true);
             transform.GetChild(aleaNPC).gameObject.GetComponent<Movement>().enabled = true;
         }
+        CarsActivated.Invoke();
     }
 }
