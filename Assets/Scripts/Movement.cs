@@ -15,7 +15,6 @@ public class Movement : MonoBehaviour
         {
             levelManager = FindObjectOfType<LevelManager>();
         }
-        
         transform.position = new Vector2(currentLane * levelManager.laneSeparation, levelManager.startPoint.transform.position.y);
     }
 
@@ -35,10 +34,8 @@ public class Movement : MonoBehaviour
     
     public void ChangeLane(int change)
     {
-        Debug.Log("ahhvans");
         if (canChangeLane(currentLane, change))
         {
-            Debug.Log("ahh");
             currentLane = currentLane + change;
             transform.position = new Vector2(currentLane * levelManager.laneSeparation, transform.position.y);
         }

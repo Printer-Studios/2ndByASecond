@@ -8,6 +8,12 @@ public class NEWPlayerMovement : Movement
     private Vector2 moveInput;
     private float lastX;
 
+    void Start()
+    {
+        currentLane = GetComponent<Movement>().currentLane;
+        speed = GetComponent<Movement>().speed;
+        
+    }
     void Update()
     {
         base.Update();
